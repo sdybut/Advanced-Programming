@@ -13,6 +13,8 @@
       #when the output is not formatted the result will be "['e','h','l','l','o']"
       #so to remove the "'" "," "[" "]" i used the syntax .replace
       return str (srtd).replace("'", "").replace("[", "").replace("]", "").replace(", ", "") '
+
+   Output
       
       #arrange from hello to ehllo
       alphabet_soup ("hello")
@@ -46,10 +48,11 @@
       #replace "mad" -> ">:("
       s = s.replace("mad", ">:(")  
 
-
       #return into modified output
       return s
 
+   Output
+   
       #print Make me smile -> Make me :)
       emotify("Make me smile")
          #output
@@ -85,6 +88,8 @@
       #middle: slice elements between the index 0 and -1 (elements between first and last element)
       #last: index -1 (last element)
       print ("first:", writeyourcodehere[0], " middle:", writeyourcodehere[1:-1], " last:", writeyourcodehere[-1])
+
+   Output
 
          #output
          first: 1  middle: [2, 3, 4, 5]  last: 6
