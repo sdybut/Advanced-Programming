@@ -3,6 +3,8 @@
 ## 1. Alphabet Soup Problem
    This function works by taking a word first, then sort its letters alphabetically, and then formatting the result back into a clean string.
 
+   **Code**
+
       def alphabet_soup (a):   #create a function and label it as alphabet_soup
       
       srtd = sorted (a)   #sort the letters alphabetically
@@ -34,6 +36,8 @@
 | Sad | :(( |
 | Mad | >:( |      
 
+   **Code**
+
       def emotify(s):   #create a function and label it as emotify
       
       s = s.replace("smile", ":)")    #replace "smile" -> ":)"  
@@ -64,6 +68,8 @@
 
 ## 3. Unpacking List Problem
    This function works by unpacking a list into three parts: the first element, the middle elements, and the last element.
+
+   **Code**
 
       writeyourcodehere = [1, 2, 3, 4, 5, 6]    #set the list of the values
 
