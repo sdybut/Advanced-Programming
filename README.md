@@ -11,7 +11,7 @@
                                                                                                #when the output is not formatted the result will be "['e','h','l','l','o']"
                                                                                                #so to remove the "'" "," "[" "]" i used the syntax .replace
 
-   Output
+   **Output**
    
       alphabet_soup ("hello")   #arrange from hello to ehllo
          'ehllo'   #output
@@ -41,7 +41,7 @@
       
       return s   #return into modified output
 
-   Output
+   **Output**
    
       emotify("Make me smile")   #print Make me smile -> Make me :)
          'Make me :)'   #output
@@ -68,7 +68,7 @@
                                                                                                                      #middle: slice elements between the index 0 and -1 (elements between first and last element)
                                                                                                                      #last: index -1 (last element)
 
-   Output
+   **Output**
 
          first: 1  middle: [2, 3, 4, 5]  last: 6    #output
 
