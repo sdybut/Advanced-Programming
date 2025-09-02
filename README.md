@@ -25,13 +25,12 @@
 ## 2. Emoticon Problem
    This function works by taking a sentence first, then replacing specific words (smile, grin, sad, mad) with their corresponding emoticon:
    
-smile    to    :)
-
-grin     to    :D 
-
-sad      to    :((      
-
-mad      to    >:(      
+| Word | Emoticon |
+| --- | --- |
+| Smile | :) |
+| Grin | :D |
+| Sad | :(( |
+| Mad | >:( |      
 
       def emotify(s):   #create a function and label it as emotify
       
