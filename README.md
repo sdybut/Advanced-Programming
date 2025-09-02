@@ -18,6 +18,8 @@
 
       alphabet_soup ("hacker")    #arrange from hacker to acehkr
          'acehkr'   #output
+
+   **Conclusion**
  
    To conclude, I created a function called alphabet_soup that takes a word first, then sorts its letters in alphabetical order using the syntax sorted(a), and then formats the result into a string. Since sorted() produces an output with a list (for example, ['e','h','l','l','o'] for "hello"), I converted the list into a string and used the syntax .replace() method to remove the brackets, commas, and quotes, resulting only the alphabetically arranged letters that are joined together. In this way, the function outputs only an arranged string like "ehllo" instead of showing the list format.
 
@@ -55,6 +57,8 @@
       emotify("I am mad")    #print I am mad -> I am >:(
          'I am >:('    #output
 
+   **Conclusion**
+
    In conclusion, I created a function called emotify that takes a sentence and replaces certain words with their corresponding emoticons. Using the .replace() method, the function substitutes "smile" with ":)", "grin" with ":D", "sad" with ":((", and "mad" with ">:(". In this way, whenever these words will appear in a sentence, they are automatically transformed into their specific emoticons I set.
 
 
@@ -71,5 +75,7 @@
    **Output**
 
          first: 1  middle: [2, 3, 4, 5]  last: 6    #output
+
+   **Conclusion**
 
    In conclusion, this program unpacks a list into three separate parts: the first element, the middle elements, and the last element. By using indexing, as writeyourcodehere[0] retrieves the first element, writeyourcodehere[1:-1] which slices everything between the first and last elements, and lastly, writeyourcodehere[-1] retrieves the last element. In this way, the list is divided and displayed as three components.
